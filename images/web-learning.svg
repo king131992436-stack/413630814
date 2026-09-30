@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180">
+  <title>網頁技術分工</title>
+  <rect width="280" height="180" rx="12" fill="#edf4ff"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#142c50">
+    <text x="140" y="30" font-size="19" font-weight="bold">網頁技術分工</text>
+    <rect x="16" y="46" width="248" height="34" rx="5" fill="#d6e6ff"/>
+    <text x="140" y="69" font-size="16">HTML → 內容</text>
+    <rect x="16" y="87" width="248" height="34" rx="5" fill="#d6e6ff"/>
+    <text x="140" y="110" font-size="16">CSS → 外觀</text>
+    <rect x="16" y="128" width="248" height="34" rx="5" fill="#d6e6ff"/>
+    <text x="140" y="151" font-size="16">JavaScript → 互動</text>
+  </g>
+</svg>

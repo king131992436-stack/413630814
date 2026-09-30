@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的個人網站｜首頁</title>
+</head>
+<body>
+  <!-- header 放頁首；請把「你的名字」換成自己的名字。 -->
+  <header>
+    <h1>你的名字的個人網站</h1>
+    <p>記錄我的網頁與程式學習過程。</p>
+  </header>
+
+  <!-- nav 放導覽連結；兩個 HTML 檔案要放在同一個資料夾。 -->
+  <nav aria-label="主要導覽">
+    <a href="index.html" aria-current="page">首頁</a> |
+    <a href="about.html">關於我</a>
+  </nav>
+
+  <!-- main 放這個頁面的主要內容。 -->
+  <main>
+    <section>
+      <h2>自我介紹</h2>
+      <!-- 以下是範例介紹，請依照自己的情況修改。 -->
+      <p>大家好，我是你的名字。目前正在學習 HTML、Git 和 Java，希望能一步一步做出自己的網頁與程式。</p>
+      <p>我的學習目標是：<strong>看懂程式，也能自己動手修改。</strong></p>
+      <img src="images/web-learning.svg" alt="網頁技術分工示意圖：HTML 負責內容，CSS 負責外觀，JavaScript 負責互動" width="280" height="180">
+      <p>這是我的網頁學習主題示意圖。</p>
+    </section>
+
+    <section>
+      <h2>我的興趣</h2>
+      <!-- ul 是無序清單，每個 li 是一個項目；請改成自己的興趣。 -->
+      <ul>
+        <li>學習程式設計</li>
+        <li>探索網頁製作</li>
+        <li>記錄學習心得</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>本學期學習內容</h2>
+      <!-- 表格先練習結構，框線和外觀留到 CSS 課程。 -->
+      <table>
+        <caption>前三週的課程主題</caption>
+        <thead>
+          <tr>
+            <th scope="col">週次</th>
+            <th scope="col">主題</th>
+            <th scope="col">練習內容</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Week 1</th>
+            <td>GitHub 與開發環境</td>
+            <td>建立儲存庫</td>
+          </tr>
+          <tr>
+            <th scope="row">Week 2</th>
+            <td>Git 基礎與版本控制</td>
+            <td>記錄與同步檔案</td>
+          </tr>
+          <tr>
+            <th scope="row">Week 3</th>
+            <td>HTML 網頁基礎</td>
+            <td>製作自我介紹頁面</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>相關連結</h2>
+      <p><a href="https://github.com/king131992436-stack/413630814" target="_blank" rel="noreferrer">我的 GitHub 儲存庫（開新分頁）</a></p>
+      <p><a href="about.html">閱讀更多關於我的介紹</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 你的名字｜HTML 課堂練習</p>
+  </footer>
+</body>
+</html>
