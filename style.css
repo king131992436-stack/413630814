@@ -1,0 +1,131 @@
+
+/* Week04 - CSS 網頁美化 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft JhengHei", sans-serif;
+  background-color: #f4f7fb;
+  color: #243447;
+  line-height: 1.6;
+}
+
+/* 頁首 */
+header {
+  background-color: #234e70;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Flexbox 導覽列 */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #163b56;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+/* 主要內容 */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* 內容區塊 */
+section {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 標題 */
+h2 {
+  color: #234e70;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 8px;
+}
+
+/* 段落 */
+p {
+  line-height: 1.8;
+}
+
+/* 圖片 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #dbeafe;
+}
+
+/* 頁尾 */
+footer {
+  background-color: #234e70;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* RWD 手機版 */
+@media (max-width: 600px) {
+  header {
+    padding: 16px;
+  }
+
+  main {
+    width: 100%;
+    padding: 16px;
+  }
+
+  section {
+    padding: 16px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
